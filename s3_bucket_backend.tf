@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "huguetty-bucket"
+    bucket         = "samedy"
     key            = "terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
